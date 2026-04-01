@@ -1,0 +1,4 @@
+/target
+/store.sqlite3
+/keystore/
+/artifacts/*.json
