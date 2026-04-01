@@ -4,9 +4,9 @@ Use this thread with the rendered PNG slide deck in `social/slides/png/`.
 
 ## Post 1
 
-If you want a minimal, working example of deploying a public contract on Miden, this repo runs the full flow end to end.
+If you want a public contract deploy example on Miden, this repo runs the full flow end to end.
 
-It does more than compile MASM. It creates accounts, handles notes, deploys the contract, and submits a real increment transaction on testnet.
+It creates accounts, handles notes, deploys the contract, and submits a real testnet increment transaction.
 
 Repo:
 https://github.com/Zhekinmaksim/miden-contract-deploy-guide
