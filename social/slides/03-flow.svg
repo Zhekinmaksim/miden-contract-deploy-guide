@@ -1,0 +1,37 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="70" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#232B35" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.45"/>
+  <text x="96" y="120" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Deployment flow</text>
+  <text x="96" y="210" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="62" font-weight="700">The repo does more than</text>
+  <text x="96" y="280" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="62" font-weight="700">compile contract code.</text>
+  <rect x="96" y="352" width="1408" height="388" rx="28" fill="#121922" stroke="#2A313C"/>
+  <text x="144" y="430" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 1]</text>
+  <text x="144" y="470" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Create Alice</text>
+  <text x="144" y="566" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 2]</text>
+  <text x="144" y="606" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Deploy faucet</text>
+  <text x="432" y="430" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 3]</text>
+  <text x="432" y="470" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Mint notes</text>
+  <text x="432" y="566" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 4]</text>
+  <text x="432" y="606" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Consume notes</text>
+  <text x="720" y="430" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 5]</text>
+  <text x="720" y="470" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Send P2ID notes</text>
+  <text x="1008" y="430" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 6]</text>
+  <text x="1008" y="470" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Deploy counter</text>
+  <text x="1008" y="566" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">[STEP 7]</text>
+  <text x="1008" y="606" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Increment counter</text>
+  <path d="M290 450H386" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M578 450H674" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M866 450H962" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M1154 450H1250" stroke="#FF7A1A" stroke-width="3"/>
+  <text x="96" y="810" fill="#8E9AA8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28">This is the part most short deploy posts skip. The repo includes it so the result is reproducible.</text>
+  <text x="1456" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[03]</text>
+</svg>

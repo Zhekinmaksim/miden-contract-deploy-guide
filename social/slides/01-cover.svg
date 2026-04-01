@@ -1,0 +1,32 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1500" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 190) rotate(130) scale(420 420)">
+      <stop stop-color="#FF7A1A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#232B35" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1600" height="900" fill="url(#orb)"/>
+  <circle cx="1320" cy="170" r="180" stroke="#FF9A4D" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="1320" cy="170" r="110" stroke="#FF9A4D" stroke-opacity="0.2" stroke-width="2"/>
+  <path d="M1210 530L1330 460L1450 530V670L1330 740L1210 670V530Z" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M1210 530L1330 600L1450 530" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M1330 600V740" stroke="#FF7A1A" stroke-width="3"/>
+  <text x="96" y="120" fill="#FFB36B" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Miden / Rust / Testnet</text>
+  <text x="96" y="220" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="82" font-weight="700">Deploying a Public</text>
+  <text x="96" y="314" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="82" font-weight="700">Contract on Miden</text>
+  <text x="96" y="398" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="500">One repo. One command. Real testnet deployment.</text>
+  <text x="96" y="528" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="600">cargo run --release</text>
+  <text x="96" y="610" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="32" font-weight="600">Creates accounts, handles notes, deploys a counter,</text>
+  <text x="96" y="654" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="32" font-weight="600">and submits a live increment transaction.</text>
+  <text x="96" y="816" fill="#8E9AA8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">github.com/Zhekinmaksim/miden-contract-deploy-guide</text>
+  <text x="1456" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[01]</text>
+</svg>

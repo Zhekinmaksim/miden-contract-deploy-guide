@@ -1,0 +1,41 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="70" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#232B35" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.45"/>
+  <text x="96" y="120" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Miden deployment model</text>
+  <text x="96" y="220" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">On Miden, a public contract</text>
+  <text x="96" y="292" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">is an account.</text>
+  <rect x="96" y="376" width="296" height="220" rx="24" fill="#121922" stroke="#2A313C"/>
+  <rect x="416" y="376" width="296" height="220" rx="24" fill="#121922" stroke="#2A313C"/>
+  <rect x="736" y="376" width="296" height="220" rx="24" fill="#121922" stroke="#2A313C"/>
+  <rect x="1056" y="376" width="296" height="220" rx="24" fill="#121922" stroke="#2A313C"/>
+  <text x="128" y="434" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[01]</text>
+  <text x="128" y="480" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">MASM code</text>
+  <text x="128" y="530" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">Write account logic</text>
+  <text x="128" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">and storage access</text>
+  <text x="448" y="434" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[02]</text>
+  <text x="448" y="480" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Component</text>
+  <text x="448" y="530" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">Compile MASM into an</text>
+  <text x="448" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">`AccountComponent`</text>
+  <text x="768" y="434" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[03]</text>
+  <text x="768" y="480" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Public account</text>
+  <text x="768" y="530" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">Build an immutable</text>
+  <text x="768" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">account with `NoAuth`</text>
+  <text x="1088" y="434" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[04]</text>
+  <text x="1088" y="480" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Tx script call</text>
+  <text x="1088" y="530" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">Link the library and</text>
+  <text x="1088" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">call the procedure</text>
+  <path d="M392 486H416" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M712 486H736" stroke="#FF7A1A" stroke-width="3"/>
+  <path d="M1032 486H1056" stroke="#FF7A1A" stroke-width="3"/>
+  <text x="96" y="760" fill="#8E9AA8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28">This is the core model behind the counter deployment in this repository.</text>
+  <text x="1456" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[02]</text>
+</svg>

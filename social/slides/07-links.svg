@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="70" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1290 180) rotate(140) scale(360 360)">
+      <stop stop-color="#FF7A1A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#orb)"/>
+  <text x="96" y="120" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Links</text>
+  <text x="96" y="220" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">Code in one repo.</text>
+  <text x="96" y="286" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">Official sources</text>
+  <text x="96" y="352" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">preserved.</text>
+  <rect x="96" y="382" width="1408" height="114" rx="22" fill="#121922" stroke="#FF7A1A"/>
+  <text x="136" y="444" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">github.com/Zhekinmaksim/</text>
+  <text x="136" y="480" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">miden-contract-deploy-guide</text>
+  <rect x="96" y="548" width="1408" height="214" rx="28" fill="#121922" stroke="#2A313C"/>
+  <text x="136" y="620" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">official references</text>
+  <text x="136" y="674" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28">Mint, Consume, and Create Notes</text>
+  <text x="136" y="716" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28">Deploying a Counter Contract</text>
+  <text x="136" y="758" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="28">Interacting with Public Smart Contracts</text>
+  <text x="1456" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[07]</text>
+</svg>

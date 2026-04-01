@@ -2,3 +2,4 @@
 /store.sqlite3
 /keystore/
 /artifacts/*.json
+.DS_Store

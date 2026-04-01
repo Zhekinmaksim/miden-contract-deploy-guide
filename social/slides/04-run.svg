@@ -1,0 +1,29 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="70" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="92" y="86" width="1416" height="728" rx="28" fill="#0F151C" stroke="#29313B"/>
+  <circle cx="152" cy="132" r="10" fill="#FF6B6B"/>
+  <circle cx="186" cy="132" r="10" fill="#F4BF4F"/>
+  <circle cx="220" cy="132" r="10" fill="#69D67D"/>
+  <text x="258" y="140" fill="#8E9AA8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">terminal / cargo run --release</text>
+  <text x="132" y="214" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28">Latest block: 1362924</text>
+  <text x="132" y="284" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="26">[STEP 1] Creating a new account for Alice</text>
+  <text x="132" y="324" fill="#C7B8A3" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Alice's account ID: mtst1ar6wcg2e3v0...yw8fn</text>
+  <text x="132" y="386" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="26">[STEP 2] Deploying a new fungible faucet</text>
+  <text x="132" y="426" fill="#C7B8A3" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Faucet account ID: mtst1aqh330cvdudp...pcxgu</text>
+  <text x="132" y="488" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="25">[STEP 3] Minting 5 notes for Alice</text>
+  <text x="132" y="528" fill="#C7B8A3" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="26">Minted note #1 ... Minted note #5 ...</text>
+  <text x="132" y="590" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="25">[STEP 6] Deploying + incrementing counter</text>
+  <text x="132" y="630" fill="#C7B8A3" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Counter contract ID: mtst1aq7dyzumafh...kmy8f</text>
+  <text x="132" y="670" fill="#C7B8A3" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="26">Counter value after deploy flow: 1</text>
+  <rect x="1120" y="228" width="292" height="194" rx="24" fill="#171F29" stroke="#FF7A1A"/>
+  <text x="1160" y="286" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">one command</text>
+  <text x="1160" y="344" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Runnable</text>
+  <text x="1160" y="392" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Deploy Flow</text>
+  <text x="1450" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[04]</text>
+</svg>

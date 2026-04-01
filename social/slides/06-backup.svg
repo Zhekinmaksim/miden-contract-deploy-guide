@@ -1,0 +1,28 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="70" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1117"/>
+      <stop offset="1" stop-color="#151C24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="96" y="120" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="24">Account recovery</text>
+  <text x="96" y="220" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">Back up these three items</text>
+  <text x="96" y="292" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">together.</text>
+  <rect x="96" y="380" width="412" height="250" rx="24" fill="#121922" stroke="#2A313C"/>
+  <rect x="544" y="380" width="412" height="250" rx="24" fill="#121922" stroke="#2A313C"/>
+  <rect x="992" y="380" width="512" height="250" rx="24" fill="#121922" stroke="#FF7A1A"/>
+  <text x="132" y="452" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[01]</text>
+  <text x="132" y="510" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="34">keystore/</text>
+  <text x="132" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">serialized secret keys</text>
+  <text x="580" y="452" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[02]</text>
+  <text x="580" y="510" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="34">store.sqlite3</text>
+  <text x="580" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">local client state</text>
+  <text x="1028" y="452" fill="#FF7A1A" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="22">[03]</text>
+  <text x="1028" y="510" fill="#F6F1E8" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="30">artifacts/official_activity.json</text>
+  <text x="1028" y="564" fill="#C7B8A3" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="24">public IDs and tx metadata</text>
+  <rect x="96" y="696" width="1408" height="104" rx="20" fill="#181109" stroke="#FF7A1A"/>
+  <text x="136" y="760" fill="#FFB36B" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Do not publish `keystore/`.</text>
+  <text x="540" y="760" fill="#F6F1E8" font-family="Space Grotesk, Sora, Avenir Next, Helvetica, Arial, sans-serif" font-size="30">It contains the private key material used to sign transactions.</text>
+  <text x="1456" y="820" fill="#FFB36B" font-family="IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="28" text-anchor="end">[06]</text>
+</svg>
